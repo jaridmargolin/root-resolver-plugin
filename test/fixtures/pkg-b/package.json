@@ -1,0 +1,10 @@
+{
+  "name": "pkg-b",
+  "version": "1.0.0",
+  "dependencies": {
+    "no-match": "^1.0.0",
+    "semver-match": "^1.0.0",
+    "semver-match-not-root": "^1.0.0",
+    "str-match": "username/repo#branch"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "root-resolver-plugin",
+  "version": "0.0.1",
+  "author": "Jarid Margolin <jaridmargolin@gmail.com>",
+  "description": "Resolver plugin to help remove duplicate dependencies caused by `npm link`",
+  "homepage": "https://github.com/jaridmargolin/root-resolver-plugin",
+  "repository": "github:jaridmargolin/root-resolver-plugin",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "codecov": "codecov",
+    "format": "prettier-eslint --write \"**/*.js\"",
+    "lint": "eslint lib test",
+    "start": "jest --watch",
+    "test": "jest --coverage"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "debug": "^4.1.1",
+    "folder-hash": "^3.1.0",
+    "lodash": "^4.17.11",
+    "semver": "^6.2.0"
+  },
+  "devDependencies": {
+    "codecov": "3.2.0",
+    "eslint": "5.8.0",
+    "eslint-config-standard": "12.0.0",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-node": "8.0.1",
+    "eslint-plugin-promise": "4.0.1",
+    "eslint-plugin-standard": "4.0.0",
+    "husky": "1.3.1",
+    "jest": "23.6.0",
+    "lint-staged": "8.1.4",
+    "prettier-eslint-cli": "4.7.1",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5"
+  }
+}

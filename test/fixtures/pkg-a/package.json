@@ -1,0 +1,11 @@
+{
+  "name": "pkg-a",
+  "version": "1.0.0",
+  "dependencies": {
+    "no-match": "^2.0.0",
+    "pkg-b": "0.0.1",
+    "pkg-c": "0.0.1",
+    "semver-match": "^1.0.0",
+    "str-match": "username/repo#branch"
+  }
+}
