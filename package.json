@@ -1,6 +1,6 @@
 {
   "name": "root-resolver-plugin",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "author": "Jarid Margolin <jaridmargolin@gmail.com>",
   "description": "Resolver plugin to help remove duplicate dependencies caused by `npm link`",
   "homepage": "https://github.com/jaridmargolin/root-resolver-plugin",
@@ -33,7 +33,7 @@
     "jest": "23.6.0",
     "lint-staged": "8.1.4",
     "prettier-eslint-cli": "4.7.1",
-    "webpack": "^4.35.2",
-    "webpack-cli": "^3.3.5"
+    "webpack": "^5.37.0",
+    "webpack-cli": "^4.7.0"
   }
 }

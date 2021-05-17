@@ -6,3 +6,5 @@ npm-debug.log
 /coverage
 
 /test/fixtures/pkg-a/dist.js
+
+.cache
