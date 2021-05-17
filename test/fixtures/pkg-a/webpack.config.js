@@ -17,6 +17,7 @@ const RootResolverPlugin = require('../../../lib')
 module.exports = {
   mode: 'production',
   entry: './index.js',
+  target: 'node',
   output: {
     path: path.resolve('./'),
     filename: 'dist.js',
